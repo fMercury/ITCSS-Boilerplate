@@ -1,0 +1,7 @@
+// Funcrions
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+@if $display-grid == true {
+  [class*="row"] {outline: 1px dotted blue;}
+  [class*="col-"] {outline: 1px dotted magenta; outline-offset: -2px;}
+}

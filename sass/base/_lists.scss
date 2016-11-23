@@ -1,0 +1,21 @@
+// Lists
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ul,
+ol {
+  margin:0;
+  padding:0;
+}
+ul { list-style: circle outside; }
+ol { list-style: decimal outside; }
+
+ul.list--square { list-style: square outside; }
+ul.list--circle { list-style: circle outside; }
+ul.list--disc { list-style: disc outside; }
+
+ol,
+ul.list--square,
+ul.list--circle,
+ul.list--disc {
+  margin-left: 30px;
+}

@@ -1,0 +1,55 @@
+/*
+* ITCSS Boilerplate by Nico Calabrese
+* http://sikker.bitbucket.org
+*/
+
+
+// Settings: Global variables, config switches.
+@import 'settings/settings';
+
+
+// Tools: Default mixins and functions.
+@import 'tools/functions';
+@import 'tools/mixins';
+
+
+// Generic: Ground-zero styles (Normalize.css, resets, box-sizing).
+@if $normalize == true {
+  @import 'generic/normalize';
+} @else {
+  @import 'generic/reset';
+}
+ @import 'generic/box-sizing';
+
+
+// Base: Unclassed HTML elements (type selectors).
+@import 'base/root';
+@import 'base/links';
+@import 'base/spacing';
+@import 'base/typography';
+@import 'base/forms';
+@import 'base/images';
+@import 'base/lists';
+@import 'base/tables';
+@import 'base/code';
+
+
+// Objects: Cosmetic-free design patterns.
+@if $grid == bootstrap {
+  @import 'objects/bootstrapgrid';
+} @else if $grid == flex {
+  @import 'objects/flexboxgrid';
+}
+@import 'objects/nav';
+@import 'objects/media';
+
+
+// Components: Designed components, chunks of UI.
+@import 'components/layout/header';
+@import 'components/layout/footer';
+@import 'components/buttons';
+
+
+// Trumps: Helpers and overrides.
+@import 'trumps/helpers';
+@import 'trumps/shame';

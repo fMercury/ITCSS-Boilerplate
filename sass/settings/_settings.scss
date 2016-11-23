@@ -1,0 +1,36 @@
+// Settings
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+// RESET
+$normalize: false !default; // False = reset.
+
+// GRID
+$grid: flex !default; // [none|bootstrap|flex]
+$display-grid: false !default; // Use true to outline the rows and columns.
+
+// COLOR PALETE
+$font-color: #222 !default;
+$link-color: #1eaedb !default;
+$border-color: #bbb !default;
+$light-grey: #e1e1e1 !default;
+$dark-grey: #333 !default;
+$primary-color: #33c3f0 !default;
+$secondary-color: lighten($dark-grey, 13.5%) !default;
+
+// TYPOGRAPHY
+$font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !default;
+$base-font-size: 1.4rem !default;
+$base-line-height: 1.2 !default;
+
+
+// BREAKPOINTS
+// Media queries based in Bootstrap.
+$screen-sm-min: 768px !default;
+$screen-sm-max: 991px !default;
+$screen-md-min: 992px !default;
+$screen-md-max: 1199px !default;
+$screen-lg-min: 1200px !default;
+
+
+// MISC
+$global-radius: 4px !default;

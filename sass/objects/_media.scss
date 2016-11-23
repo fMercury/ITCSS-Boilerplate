@@ -1,0 +1,11 @@
+// Media objects
+.ui-Media {
+  display: table;
+  > :first-child {padding-right: 15px;}
+
+  .ui-Media-figure,
+  .ui-Media-body {
+    display: table-cell;
+    vertical-align: top;
+  }
+}
